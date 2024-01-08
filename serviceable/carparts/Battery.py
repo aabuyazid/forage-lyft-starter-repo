@@ -14,7 +14,7 @@ class SpindlerBattery(Battery):
         self.current_date = current_date
 
     def needs_service(self) -> bool:
-        return relativedelta(self.current_date, self.last_service_date).years >= 2
+        return relativedelta(self.current_date, self.last_service_date).years >= 3
         
 class NubbinBattery(Battery):
     def __init__(self, last_service_date: date, current_date: date) -> None:
