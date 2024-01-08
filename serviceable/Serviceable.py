@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
-from carparts.Engine import Engine
-from carparts.Battery import Battery
+from serviceable.carparts.Engine import Engine
+from serviceable.carparts.Battery import Battery
 
 class Serviceable(ABC):
     @abstractmethod
