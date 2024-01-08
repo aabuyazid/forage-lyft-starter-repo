@@ -1,2 +1,7 @@
-# Starter Repo
-This repo has everything you need to get started on the program, good luck!
+# Lyft's Forage Job Sim
+
+## Task 2: Refactor the codebase
+Refactored the codebase per the class diagram 
+
+## Task 3: Create test cases
+
